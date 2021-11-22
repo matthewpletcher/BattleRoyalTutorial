@@ -10,7 +10,7 @@ public class PlayerAttackScript : MonoBehaviour
     ParticleSystem.EmissionModule em;
 
     float attackTimer = 0f;
-    float firingRate = 1f;
+    float firingRate = 5f;
     int bulletCounter = 0;
     void Start()
     {
